@@ -12,7 +12,7 @@ Source: Kaggle — Chest X-Ray Images (Pneumonia) https://www.kaggle.com/dataset
 ## Structure:
 Pre-split into train/ and test/ folders, each containing NORMAL and PNEUMONIA subfolders of grayscale JPEG images.
 Class balance: The training set is imbalanced at roughly a 3:1 ratio of Pneumonia to Normal images.
-
+```
 xray/chest_xray/
 ├── train/
 │   ├── NORMAL/
@@ -20,6 +20,7 @@ xray/chest_xray/
 └── test/
     ├── NORMAL/
     └── PNEUMONIA/
+```
 ## Approach
 Preprocessing — Images are loaded as grayscale (chest X-rays carry no real color information), resized to 150x150, and normalized to a 0–1 pixel range.
 Splitting — The training folder is further split into train/validation sets (85/15, stratified). The test folder is kept fully separate and untouched until final evaluation.
