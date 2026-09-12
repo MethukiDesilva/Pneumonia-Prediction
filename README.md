@@ -9,7 +9,8 @@ This project trains a CNN from scratch to detect pneumonia from chest X-ray imag
 Dataset
 Source: Kaggle — Chest X-Ray Images (Pneumonia) https://www.kaggle.com/datasets/tolgadincer/labeled-chest-xray-images?select=chest_xray
 
-## Structure: Pre-split into train/ and test/ folders, each containing NORMAL and PNEUMONIA subfolders of grayscale JPEG images.
+## Structure:
+Pre-split into train/ and test/ folders, each containing NORMAL and PNEUMONIA subfolders of grayscale JPEG images.
 Class balance: The training set is imbalanced at roughly a 3:1 ratio of Pneumonia to Normal images.
 
 xray/chest_xray/
