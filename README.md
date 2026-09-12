@@ -1,4 +1,4 @@
-** ## Chest X-Ray Pneumonia Classification
+# Chest X-Ray Pneumonia Classification
 
 A convolutional neural network (CNN) that classifies chest X-ray images as either Normal or Pneumonia.
 
